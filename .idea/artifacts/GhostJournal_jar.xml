@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GhostJournal:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GhostJournal_jar</output-path>
+    <root id="archive" name="GhostJournal.jar">
+      <element id="module-output" name="GhostJournal" />
+    </root>
+  </artifact>
+</component>
