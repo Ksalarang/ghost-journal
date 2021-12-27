@@ -39,7 +39,6 @@ class EvidencePanel extends JPanel {
 
         initGUI();
 
-        //add action listeners to combo boxes
         evidenceComboBox1.addActionListener(e -> {
             selectedEvidence[0] = (String) evidenceComboBox1.getSelectedItem();
             findGhosts();
@@ -129,8 +128,10 @@ class EvidencePanel extends JPanel {
             }
         }
         ghostComboBox.setModel(new DefaultComboBoxModel<>(remainingGhosts.toArray(new Ghost[0])));
+
         if (ghostComboBox.getItemCount() == 1) ghostComboBox.setSelectedItem(remainingGhosts.get(0));
         else ghostComboBox.setSelectedItem(remainingGhosts.get(1));
+
         ghostTypeLabel.setText(GHOST_TYPE_TITLE + (ghostComboBox.getItemCount() - 1) + ")");
     }
 }

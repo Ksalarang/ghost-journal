@@ -13,7 +13,6 @@ public class GhostJournal extends JFrame {
         super("Ghost Journal");
         setLayout(new BorderLayout());
         setBounds(400, 100, 1000, 650);
-//        setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         getContentPane().add(evidencePanel, BorderLayout.WEST);

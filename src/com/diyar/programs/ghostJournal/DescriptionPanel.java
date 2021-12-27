@@ -33,10 +33,6 @@ class DescriptionPanel extends JPanel {
         Utils.setFontSize(weaknesses, 20);
         Utils.setFontSize(features, 20);
 
-//        strengths.setOpaque(false);
-//        weaknesses.setOpaque(false);
-//        features.setOpaque(false);
-
         strengths.setEditable(false);
         weaknesses.setEditable(false);
         features.setEditable(false);
